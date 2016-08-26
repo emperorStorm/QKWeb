@@ -5,7 +5,12 @@
 //  Created by mac on 16/8/18.
 //  Copyright © 2016年 Jon. All rights reserved.
 //
-
+/**
+    顶部滚动菜单栏：
+        1.菜单居中
+        2.菜单形状变化
+        3.指示器变化
+ */
 import UIKit
 
 //MARK: - TopScrollMenuDelegate传递: 1.控件本身 2.被点击的label的下标
@@ -30,7 +35,7 @@ class TopScrollMenu: UIScrollView {
         super.init(frame: frame)
         self.bounces = false
         self.showsHorizontalScrollIndicator = false
-        self.backgroundColor = UIColor.blueColor()
+        self.backgroundColor = UIColor(colorLiteralRed: 51 / 255, green: 128 / 255, blue: 252 / 255, alpha: 1)
     }
     
     required init?(coder aDecoder: NSCoder) {

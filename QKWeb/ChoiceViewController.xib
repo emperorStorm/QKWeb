@@ -9,6 +9,7 @@
             <connections>
                 <outlet property="pageControl" destination="Wuh-6R-ZR5" id="leN-lf-gqz"/>
                 <outlet property="scrollView" destination="uL8-b4-Fd0" id="qiA-gp-Zc1"/>
+                <outlet property="tableView" destination="iuJ-rK-Oai" id="O9G-5E-lYS"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -32,13 +33,25 @@
                     <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <color key="currentPageIndicatorTintColor" red="1" green="0.074093134120000001" blue="0.19144769110000001" alpha="1" colorSpace="calibratedRGB"/>
                 </pageControl>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iuJ-rK-Oai">
+                    <rect key="frame" x="8" y="158" width="359" height="509"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="MZM-W6-7vL"/>
+                        <outlet property="delegate" destination="-1" id="4dX-QU-Vgd"/>
+                    </connections>
+                </tableView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="iuJ-rK-Oai" secondAttribute="bottom" id="8IS-2A-KVM"/>
                 <constraint firstItem="Wuh-6R-ZR5" firstAttribute="bottom" secondItem="uL8-b4-Fd0" secondAttribute="bottom" id="KBz-99-OFd"/>
+                <constraint firstAttribute="trailing" secondItem="iuJ-rK-Oai" secondAttribute="trailing" constant="8" id="LYq-ez-omn"/>
                 <constraint firstItem="uL8-b4-Fd0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="VjH-4P-xM4"/>
                 <constraint firstItem="Wuh-6R-ZR5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="cgZ-7u-1DI"/>
                 <constraint firstItem="uL8-b4-Fd0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kfe-uS-Xqu"/>
+                <constraint firstItem="iuJ-rK-Oai" firstAttribute="top" secondItem="Wuh-6R-ZR5" secondAttribute="bottom" constant="8" id="l1J-wp-kaN"/>
+                <constraint firstItem="iuJ-rK-Oai" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="oYi-kQ-nuM"/>
                 <constraint firstAttribute="trailing" secondItem="uL8-b4-Fd0" secondAttribute="trailing" id="p9J-ER-x8S"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>

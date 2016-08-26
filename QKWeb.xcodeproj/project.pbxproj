@@ -10,7 +10,6 @@
 		0440B1DD1D65B56400776F45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440B1DC1D65B56400776F45 /* AppDelegate.swift */; };
 		0440B1DF1D65B56400776F45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440B1DE1D65B56400776F45 /* ViewController.swift */; };
 		0440B1E21D65B56400776F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0440B1E01D65B56400776F45 /* Main.storyboard */; };
-		0440B1E41D65B56400776F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0440B1E31D65B56400776F45 /* Assets.xcassets */; };
 		0440B1E71D65B56400776F45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0440B1E51D65B56400776F45 /* LaunchScreen.storyboard */; };
 		0440B1F21D65B7DF00776F45 /* TopScrollMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0440B1F11D65B7DF00776F45 /* TopScrollMenu.swift */; };
 		04503A561D66D6F000597601 /* TestTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04503A551D66D6F000597601 /* TestTwoViewController.swift */; };
@@ -22,6 +21,11 @@
 		0499372A1D684C8200755F56 /* CyclePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049937291D684C8200755F56 /* CyclePictureView.swift */; };
 		0499372D1D684E0100755F56 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0499372B1D684E0100755F56 /* ChoiceViewController.swift */; };
 		0499372E1D684E0100755F56 /* ChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0499372C1D684E0100755F56 /* ChoiceViewController.xib */; };
+		04F791EB1D701FC800037A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F791EA1D701FC800037A87 /* Assets.xcassets */; };
+		04F791F31D70240E00037A87 /* HotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F791F11D70240E00037A87 /* HotTableViewCell.swift */; };
+		04F791F41D70240E00037A87 /* HotTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F791F21D70240E00037A87 /* HotTableViewCell.xib */; };
+		04F791F81D7029A000037A87 /* HotTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F791F71D7029A000037A87 /* HotTableViewHeaderView.swift */; };
+		04F791FA1D7029BC00037A87 /* HotTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F791F91D7029BC00037A87 /* HotTableViewHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +33,6 @@
 		0440B1DC1D65B56400776F45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0440B1DE1D65B56400776F45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0440B1E11D65B56400776F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0440B1E31D65B56400776F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0440B1E61D65B56400776F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0440B1E81D65B56400776F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0440B1F11D65B7DF00776F45 /* TopScrollMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopScrollMenu.swift; sourceTree = "<group>"; };
@@ -42,6 +45,11 @@
 		049937291D684C8200755F56 /* CyclePictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclePictureView.swift; sourceTree = "<group>"; };
 		0499372B1D684E0100755F56 /* ChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 		0499372C1D684E0100755F56 /* ChoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChoiceViewController.xib; sourceTree = "<group>"; };
+		04F791EA1D701FC800037A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F791F11D70240E00037A87 /* HotTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotTableViewCell.swift; sourceTree = "<group>"; };
+		04F791F21D70240E00037A87 /* HotTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotTableViewCell.xib; sourceTree = "<group>"; };
+		04F791F71D7029A000037A87 /* HotTableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotTableViewHeaderView.swift; sourceTree = "<group>"; };
+		04F791F91D7029BC00037A87 /* HotTableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotTableViewHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +82,30 @@
 		0440B1DB1D65B56400776F45 /* QKWeb */ = {
 			isa = PBXGroup;
 			children = (
+				045DF4F71D6C198100B3115C /* Controller */,
 				0440B1EE1D65B5A000776F45 /* View */,
 				0440B1DC1D65B56400776F45 /* AppDelegate.swift */,
+				0440B1E01D65B56400776F45 /* Main.storyboard */,
+				0440B1E51D65B56400776F45 /* LaunchScreen.storyboard */,
+				04F791EA1D701FC800037A87 /* Assets.xcassets */,
+				0440B1E81D65B56400776F45 /* Info.plist */,
+			);
+			path = QKWeb;
+			sourceTree = "<group>";
+		};
+		0440B1EE1D65B5A000776F45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04F791F01D70234F00037A87 /* Cell */,
+				0440B1F11D65B7DF00776F45 /* TopScrollMenu.swift */,
+				049937291D684C8200755F56 /* CyclePictureView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		045DF4F71D6C198100B3115C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				0440B1DE1D65B56400776F45 /* ViewController.swift */,
 				0499372B1D684E0100755F56 /* ChoiceViewController.swift */,
 				0499372C1D684E0100755F56 /* ChoiceViewController.xib */,
@@ -85,21 +115,19 @@
 				04503A5B1D66D73D00597601 /* TestFiveViewController.swift */,
 				04503A5D1D67119800597601 /* TestSixViewController.swift */,
 				04503A5F1D6711B300597601 /* TestSevenViewController.swift */,
-				0440B1E01D65B56400776F45 /* Main.storyboard */,
-				0440B1E31D65B56400776F45 /* Assets.xcassets */,
-				0440B1E51D65B56400776F45 /* LaunchScreen.storyboard */,
-				0440B1E81D65B56400776F45 /* Info.plist */,
 			);
-			path = QKWeb;
+			name = Controller;
 			sourceTree = "<group>";
 		};
-		0440B1EE1D65B5A000776F45 /* View */ = {
+		04F791F01D70234F00037A87 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				0440B1F11D65B7DF00776F45 /* TopScrollMenu.swift */,
-				049937291D684C8200755F56 /* CyclePictureView.swift */,
+				04F791F11D70240E00037A87 /* HotTableViewCell.swift */,
+				04F791F21D70240E00037A87 /* HotTableViewCell.xib */,
+				04F791F71D7029A000037A87 /* HotTableViewHeaderView.swift */,
+				04F791F91D7029BC00037A87 /* HotTableViewHeaderView.xib */,
 			);
-			name = View;
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +189,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0440B1E71D65B56400776F45 /* LaunchScreen.storyboard in Resources */,
-				0440B1E41D65B56400776F45 /* Assets.xcassets in Resources */,
 				0440B1E21D65B56400776F45 /* Main.storyboard in Resources */,
+				04F791F41D70240E00037A87 /* HotTableViewCell.xib in Resources */,
+				04F791EB1D701FC800037A87 /* Assets.xcassets in Resources */,
 				0499372E1D684E0100755F56 /* ChoiceViewController.xib in Resources */,
+				04F791FA1D7029BC00037A87 /* HotTableViewHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,10 +207,12 @@
 				04503A5C1D66D73D00597601 /* TestFiveViewController.swift in Sources */,
 				0440B1F21D65B7DF00776F45 /* TopScrollMenu.swift in Sources */,
 				0499372D1D684E0100755F56 /* ChoiceViewController.swift in Sources */,
+				04F791F31D70240E00037A87 /* HotTableViewCell.swift in Sources */,
 				0499372A1D684C8200755F56 /* CyclePictureView.swift in Sources */,
 				0440B1DF1D65B56400776F45 /* ViewController.swift in Sources */,
 				04503A5E1D67119800597601 /* TestSixViewController.swift in Sources */,
 				04503A5A1D66D73000597601 /* TestFourViewController.swift in Sources */,
+				04F791F81D7029A000037A87 /* HotTableViewHeaderView.swift in Sources */,
 				0440B1DD1D65B56400776F45 /* AppDelegate.swift in Sources */,
 				04503A561D66D6F000597601 /* TestTwoViewController.swift in Sources */,
 				04503A601D6711B300597601 /* TestSevenViewController.swift in Sources */,
